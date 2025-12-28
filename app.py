@@ -20,7 +20,8 @@ st.sidebar.title('Select House features: ')
 st.sidebar.image('https://cdn.dribbble.com/userupload/20000742/file/original-aaf23458355a156d0cf85b8217a5065a.gif')
 all_value = []
 for i in final_X:
-  result = st.sidbar.slider(f'Select {i} value')
+  result = st.sidebar.slider(f'Select {i} value')
   aal_value.append(result)
 
 st.write(all_value)
+
