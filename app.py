@@ -44,7 +44,8 @@ with st.spinner('Predicting House price'):
   time.sleep(2)
 
 st.success(f'Estimed House price is: $ {final_price}')
-st.markdown('''**Design Developed by:ishu **''')
+st.markdown('''**Design Developed by:ishu sagar**''')
+
 
 
 
